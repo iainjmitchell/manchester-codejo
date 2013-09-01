@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Codejo site tests</title>
+    <link rel="stylesheet" href="./lib/qunit.css">
+  </head>
+  <body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture">
+      <div class="codejo-details">
+        <div id="next-codejo">
+          <div id="codejo-date"></div>
+          <div id="codejo-theme"></div>
+          <a id="register"/>
+        </div>
+        <div id="no-codejo-event">
+        </div>
+      </div>
+    </div>
+    <script src="./lib/qunit.js"></script>
+    <script src="./lib/jquery.js"></script>
+    <script src="../public/lib/moment.js"></script>
+    <script src="../public/src/NextCodejoEvent.js"></script>
+    <script src="../public/src/NoCodejoEvent.js"></script>
+    <script src="../public/src/CodejoEventFactory.js"></script>
+    <script src="../public/src/EventBriteEventTranslator.js"></script>
+    <script src="./tests/test-CodejoEventStore.js"></script>
+    <script src="./tests/test-NextCodejoEvent.js"></script>
+    <script src="./tests/test-NoCodejoEvent.js"></script>
+    <script src="./tests/test-CodejoEventFactory.js"></script>
+    <script src="./tests/test-EventBriteEventTranslator.js"></script>
+  </body>
+</html>
