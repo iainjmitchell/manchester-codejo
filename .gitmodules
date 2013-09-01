@@ -1,3 +1,0 @@
-[submodule "test/lib"]
-	path = test/lib
-	url = git@github.com:iainjmitchell/phantomjs-and-qunit-lib.git
